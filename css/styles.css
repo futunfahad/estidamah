@@ -553,3 +553,22 @@ font-family: Verdana, sans-serif;
     margin: 8% 15%;
     z-index: 100;;
 }
+
+#popupBtn {
+    display: inline;
+    margin: 20px auto 50px;
+    height: 34px;
+    width: 125px;
+    letter-spacing: 0.5px;
+    background: #008463;
+    border: 0px solid;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    position: fixed;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    z-index: 9999;
+    font-family: "Rubik", sans-serif;
+  }
