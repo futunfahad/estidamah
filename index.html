@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=divice-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <meta name="description" content="موقع التنمية المستدامة ل جامعة المجمعة" />
     <meta property="og:title" content="التنمية المستدامة " />
@@ -10,6 +10,8 @@
     <title>التنمية المستدامة</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/slideshow.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,20 +21,38 @@
   </head>
   <body>
     <header class="Center">
-      <div class="Card MidSize">
-        <div class="layers">
+      <button id="popupBtn">الانضمام</button>
+
+      <!-- The popup div -->
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close" id="closeBtn" style="align-self: flex-end"
+            >&times;</span
+          >
+          <h2 style="margin-bottom: 0; margin-top: 0">العضوية</h2>
+          <p>
+            التطوع هو استثمار في المستقبل، نبني مجتمعًا مستدامًا يداً بيد✨
+            نُعلن عن فتح أبواب النادي لإستقبال اعضاء جدد لنكوّن عائلة أكبر معاً
+            .. نبني ونتطــــوّر ، لـ نصنع إرثــاً مُستـــدام
+          </p>
+          <a href="quize.html" class="quizepage">سجل</a>
+        </div>
+      </div>
+
+      <dev class="Card MidSize">
+        <dev class="layers">
           <img src="media\logo.png" alt="" class="Banner_logo" />
           <img class="img_card" src="media\banner.png" alt="" srcset="" />
           <h1 class="Card_title Card_center rakkas-regular">
             نادي التنمية<br />
             المستدامة
           </h1>
-        </div>
-      </div>
+        </dev>
+      </dev>
     </header>
 
     <section class="Messages Center MidSize">
-      <div class="Card">
+      <dev class="Card">
         <h2 class="Card_title rakkas-regular">الرؤية</h2>
         <img
           class="line line_right"
@@ -52,8 +72,8 @@
           alt=""
           srcset=""
         />
-      </div>
-      <div class="Card">
+      </dev>
+      <dev class="Card">
         <h2 class="Card_title rakkas-regular">الرسالة</h2>
         <p class="Card_text rubik">
           <img
@@ -73,9 +93,9 @@
             srcset=""
           />
         </p>
-      </div>
+      </dev>
 
-      <div class="Card">
+      <dev class="Card">
         <img
           class="line line_middle"
           src="media\gradiantline.png"
@@ -89,21 +109,7 @@
           الاهداف
         </h2>
         <img class="img_card" src="media\goals.png" alt="" srcset="" />
-      </div>
-    </section>
-
-    <section class="Structure">
-      <div class="Card">
-        <h2 class="Card_title rakkas-regular img_title">:هيكلتنا</h2>
-        <div class="layers">
-          <img
-            class="img_card img_framed"
-            src="media\structure.png"
-            alt=""
-            srcset=""
-          />
-        </div>
-      </div>
+      </dev>
     </section>
 
     <section class="Achievements">
@@ -162,7 +168,7 @@
     </section>
 
     <section class="Structure">
-      <div class="Card">
+      <dev class="Card">
         <h2 class="Card_title rakkas-regular img_title">:هيكلتنا</h2>
         <div class="layers">
           <img
@@ -172,7 +178,7 @@
             srcset=""
           />
         </div>
-      </div>
+      </dev>
     </section>
 
     <section class="Quotes">
@@ -186,8 +192,8 @@
         كلمة رئيس و <br />مشرفة النادي
       </h2>
 
-      <div class="Card">
-        <div class="NameCard">
+      <dev class="Card">
+        <dev class="NameCard">
           <img class="NameCard_img" src="media\asmaa.jpeg" alt="" />
           <p class="NameCard_text rubik">
             أعزائي الطلبة <br /> من دواعي الفخر والسرور أن أرحب بكم في نادي
@@ -204,9 +210,9 @@
             ,مع خالص التحية <br />مشرفة نادي التنمية المستدامة: د. أسماء بنت علي
             العنزي
           </p>
-        </div>
+        </dev>
 
-        <div class="NameCard">
+        <dev class="NameCard">
           <img class="NameCard_img" src="media\mohammed.jpeg" alt="" />
           <p class="NameCard_text rubik">
             يسعدني أن أرحب بكم في الموقع الرسمي لنادي التنمية المستدامة بجامعة
@@ -224,8 +230,8 @@
           <p class="NameCard_name GradientText rubik">
             محمد الحصيّن <br />رئـــيس نــــادي التنمية المستدامة
           </p>
-        </div>
-      </div>
+        </dev>
+      </dev>
     </section>
     <section class="Committee">
       <img
@@ -236,7 +242,7 @@
       />
 
       <h2 class="Card_title Card_center rakkas-regular">اللجان</h2>
-      <div class="Card">
+      <dev class="Card">
         <a
           class="Committee_box rubik"
           href="members.html?Committee=لجنة التقنية"
@@ -251,7 +257,7 @@
           <p class="Committee_leader GradientText">
             رئيسة اللجنة : مزن الزنيدي
           </p>
-          <div class="Committee_square black"></div>
+          <dev class="Committee_square black"></dev>
         </a>
 
         <a
@@ -267,7 +273,7 @@
           <p class="Committee_leader GradientText">
             رئيسة اللجنة : جوري الطيار
           </p>
-          <div class="Committee_square blue"></div>
+          <dev class="Committee_square blue"></dev>
         </a>
 
         <a class="Committee_box rubik" href="members.html?Committee=لجنة HR">
@@ -281,7 +287,7 @@
           <p class="Committee_leader GradientText">
             رئيسة اللجنة : ثريا العويد
           </p>
-          <div class="Committee_square pink"></div>
+          <dev class="Committee_square pink"></dev>
         </a>
 
         <a
@@ -297,7 +303,7 @@
           <p class="Committee_leader GradientText">
             رئيسة اللجنة : تسنيم الجاسر
           </p>
-          <div class="Committee_square yellow"></div>
+          <dev class="Committee_square yellow"></dev>
         </a>
 
         <a
@@ -314,7 +320,7 @@
           <p class="Committee_leader GradientText">
             رئيسة اللجنة: فرح السبيهين
           </p>
-          <div class="Committee_square green"></div>
+          <dev class="Committee_square green"></dev>
         </a>
 
         <a
@@ -330,7 +336,7 @@
           <p class="Committee_leader GradientText">
             رئيسة اللجنة : سارة السليمان
           </p>
-          <div class="Committee_square purple"></div>
+          <dev class="Committee_square purple"></dev>
         </a>
 
         <a
@@ -346,7 +352,7 @@
           <p class="Committee_leader GradientText">
             رئيسة اللجنة : جودي الطريقي
           </p>
-          <div class="Committee_square yellow"></div>
+          <dev class="Committee_square yellow"></dev>
         </a>
 
         <a class="Committee_box rubik large" href="#">
@@ -361,13 +367,15 @@
           <p class="Committee_leader GradientText">
             رئيس اللجنة : عبدالرحمن الشنيفي
           </p>
-          <div class="Committee_square blue"></div>
+          <dev class="Committee_square blue"></dev>
         </a>
-      </div>
+      </dev>
     </section>
     <footer class="developer">
       <p>Made by Futun Alqudayri</p>
     </footer>
+    <!--helooo-->
+    <script src="js/quize.js"></script>
+    <script src="js/slideshow.js"></script>
   </body>
-  <script src="js/slideshow.js"></script>
 </html>

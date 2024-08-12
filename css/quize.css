@@ -1,0 +1,125 @@
+/* GENERAL */
+body {
+    font-size: 1.59rem;
+    text-align: right;
+    font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+
+
+  }
+
+  
+  /* SECTION WRAPPER */
+  .wrapper,header  {
+    width: 85%;
+    margin: 0 auto;
+    max-width:1000px ;
+  }
+
+  @media screen  and (max-width:800px){
+    .wrapper,header {
+      width: 100%;
+    }
+  }
+  
+  /* TYPOGRAPHY */ 
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+margin-right: 10px;
+  }
+ 
+  h2{
+    margin: 10px;
+  }
+  form p {
+    font-size: 1.9rem;
+    margin: 50px 0 20px; 
+    line-height: 1.6;
+  }
+  label {
+    padding-bottom: 6px;
+    border-bottom: 2.5px solid #91c8ba;
+    margin: 15px 0 20px 15px;
+    display: inline-block;
+    min-width: 150px;
+    max-width: 500px;
+
+   font-size: 1.9rem;
+    line-height: 1.6;
+  }
+
+  @media screen and (max-width:700px) {
+    h1{
+      font-size: 3rem;
+    }
+
+ h2{
+    font-size: 1.8rem;
+  }  }
+  
+  /* HEADER */
+  header {
+    position: relative;
+    padding: 50px 0px 30px;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(43,38,96,0) 0%, rgb(145, 200, 186) 30%, rgb(119, 159, 149) 100%);
+    text-shadow: 1px 1px 1px #3f3e3e;
+    background-position: bottom;
+    margin-bottom: 5rem;
+  }
+  
+  /* SECTION */
+  section {
+    background: #ffffff;
+    padding: 20px 0;
+  }
+  
+  /* FORM STYLES */
+  .input-wrap {
+    margin-bottom: 10px;
+    padding-right: 15px;
+  }
+
+ 
+  select {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 80%;
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid #00BF8F;
+    background: #DAEAE6;
+    margin-bottom: 50px;
+  }
+
+ 
+
+
+  input[type="submit"] {
+    display: block;
+    margin: 20px auto 50px;
+    height: 34px;
+    width: 125px;
+    letter-spacing: 0.5px;
+    background: #008463;
+    border: 0px solid;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    border-radius: 5px;
+  }
+  input[type="submit"]:hover {
+    background: #00BF8F;
+    cursor: pointer;
+  }
+
+
+
+
+  
