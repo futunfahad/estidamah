@@ -140,7 +140,8 @@ img {vertical-align: middle;}
 
 @media screen and (max-width:385px) {
   .slides_text{
-    margin: auto;}
+    margin: auto;
+  padding-top: 10px;}
   }
 
 
@@ -176,3 +177,9 @@ img {vertical-align: middle;}
     gap: 52px;
   }
 }
+
+
+@media screen and (max-width: 850px){
+.small-gap{
+  gap:3px
+}}
